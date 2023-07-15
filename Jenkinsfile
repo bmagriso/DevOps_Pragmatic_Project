@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        image_name=
+        image_name="933368982488.dkr.ecr.eu-central-1.amazonaws.com/devops_project"
         region="eu-central-1"
     }
     stages {
