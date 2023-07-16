@@ -1,8 +1,8 @@
 deployment:
-   name: flask
-   replicas: 2
-   image: 933368982488.dkr.ecr.eu-central-1.amazonaws.com/devops_project
-   tag: latest
-   port: 5000
+  name: flask
+  replicas: 2
+  image: 933368982488.dkr.ecr.eu-central-1.amazonaws.com/devops_project
+  tag: latest
+  port: 5000
 service:
-   nodeport: 30000
+  nodeport: 30000
